@@ -1,0 +1,218 @@
+/*import fonts*/
+@import url('https://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+/*html*/
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: "Open Sans", Helvetica;
+}
+
+header{
+	background: linear-gradient(rgba(20, 26, 35,0.55),rgba(20, 26, 35, 0.55)),
+				url("../img/bg.jpg") no-repeat center center fixed;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+ul{
+    float: top;
+    padding: 3px 370px;
+    list-style-type: none;
+    margin-top: 40px;
+    color: rgb(105, 105, 105);
+}
+
+ul li{
+    display: inline-block;}
+
+ul li a{
+    text-decoration: none;
+    color: rgb(153, 153, 153);
+    padding: 7px 30px;
+    background-color: transparent;
+    border-radius: 20px;
+    text-shadow: black;
+}
+
+ul li a:hover{
+    background-color: transparent;
+    color: #fff;
+    transition: 0.6s ease;
+}
+
+ul li.active a{
+    background-color: transparent;
+    color: #fff;
+}
+.title h1{
+    color: #fff;
+    font-size: 50px;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.title h2{
+    color: #fff;
+    font-size: 40px;
+    position: absolute;
+    top: 37%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.title h3{
+    color: #fff;
+    font-size: 30px;
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.title h4{
+    color: #fff;
+    font-size: 25px;
+    position: absolute;
+    top: 7%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+}
+
+.title h7{
+    color: #fff;
+    font-size: 13px;
+    position: absolute;
+    top: 98%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title {
+	font-weight: bold;
+	font-size: 17px;
+	color: white;
+}
+
+.subtitle {
+	color: #cfcfcf;
+	font-size: 12px;
+}
+
+.title,
+.subtitle {
+	margin: 0;
+	padding: 0;
+}
+
+@media(min-width: 400px) {
+	.playercount {
+		margin-top: 30px;
+		padding: 5px;
+	}
+
+	.playercount > p > span {
+		padding: 2px 7px;
+	}
+}
+
+@media(min-width: 600px) {
+	.title {
+		font-size: 24px;
+	}
+
+	.subtitle {
+		font-size: 15px;
+	}
+
+	.logo img {
+		width: 530px; /* Change image size for desktop */
+	}
+	.img {
+		width: 100%;
+	}
+	.items {
+		padding: 30px 0 20px 0;
+	}
+	.playercount {
+		font-size: 1.22em;
+		padding: 10px;
+	}
+
+	.extrapad {
+		padding: 0 42.5px;
+	}
+
+	.playercount > p > span {
+		padding: 4px 7px;
+	}
+}
+
+.card{
+    width: 500px;
+    background: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.top-section{
+    height: 100px;
+    overflow: hidden;
+    background: #fff;
+    position: relative;
+}
+#image-container{
+    widows: 360px;
+    height: 240px;
+}
+.price{
+    position: absolutle;
+    top: 50%;
+    right: 50%;
+    color: #000;
+    font-size: 24px;
+    padding: 24px;
+}
+.product-info{
+    padding: 24px;
+}
+.name{
+    text-transform: uppercase;
+    font-size: 24px;
+    color: #333;
+}
+.dis{
+    font-size: 16px;
+    opacity: 0.7;
+}
+.btn{
+    top: 50%;
+    left: 50%;
+    width: 200px;
+    height: 60px;
+    text-align: center;
+    display: block;
+    background: #6ab04c;
+    text-align: #fff;
+    color: #fff;
+    padding: 10px;
+    margin-top: 20px;
+    width: 430px;
+    height: 20px;
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    transition: 0.3s;
+    text-decoration: none;
+}
+.btn:hover{
+    background: #333;
+    border-radius: 30px;
+    transition: 0.3s;
+}
